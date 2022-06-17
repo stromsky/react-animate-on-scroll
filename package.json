@@ -1,9 +1,11 @@
 {
   "name": "@stromsky/react-animate-on-scroll",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "React component to animate elements on scroll with animate.css",
   "main": "dist/scrollAnimation.min.js",
+  "types": "dist/scrollAnimation.d.ts",
   "scripts": {
+    "build": "gulp",
     "test": "karma start"
   },
   "repository": {
